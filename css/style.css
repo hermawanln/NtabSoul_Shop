@@ -1,0 +1,153 @@
+.logosize{
+  height: 120px;
+}
+
+#wrapper{
+  width: 90%;
+  margin: auto;
+}
+
+#header{
+  background: #86b3f9;
+  height: 250px;
+}
+
+#menu{
+  background: #c2d3ef;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-right: 3px;
+}
+#content{
+  padding: 5px;
+  width: calc(25% - 10px);
+  height: 500px;
+  float: left;
+  background: #CCCCFF;
+}
+
+#sidebar{
+  height: 500px;
+  padding: 5px;
+  float: right;
+  width: calc(75% - 10px);
+  background: #f9fbff;
+}
+#footer{
+  background: #86b3f9;
+  height: 200px;
+  margin-top: 10px;
+}
+#copyright{
+  height: 20px;
+  background: #aec3e5;
+  padding: 10px;
+  text-align: center;
+}
+#login{
+  padding: 5px;
+  width: 50%;
+  border-radius: 15px;
+  text-align: center;
+  height: 300px;
+  margin: auto;
+  background: #CCCCFF;
+}
+#register{
+  padding: 5px;
+  width: 50%;
+  border-radius: 15px;
+  text-align: center;
+  height: 450px;
+  margin: auto;
+  background: #CCCCFF;
+}
+#about{
+  padding: 5px 0px;
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  height: 450px;
+  margin: auto;
+  background: #CCCCFF;
+}
+#chart{
+  padding: 5px;
+  width: 90%;
+  border-radius: 15px;
+  text-align: center;
+  height: 450px;
+  margin: auto;
+  background: #CCCCFF;
+}
+#item-output{
+  padding: 5px;
+  width: 90%;
+  border-radius: 15px;
+  text-align: center;
+  height: 450px;
+  margin: auto;
+  background: #CCCCFF;
+}
+.footer-item{
+  width: calc(100% / 3);
+  float:left;
+  text-align: center;
+}
+.kiri{
+  text-align: left;
+}
+.kanan{
+  text-align: right;
+}
+.tengah{
+  text-align: center;
+}
+.bg-menu{
+  cursor: pointer;
+  background: #51617c;
+  padding: 15px 20px;
+  border-radius: 5px;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+}
+.bg-menu:hover{
+  background: orange;
+}
+.bg-content{
+  cursor: pointer;
+  color: white;
+  background: #51617c;
+  padding: 15px 80px;
+  border-radius: 5px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bg-content:hover{
+  background: orange;
+}
+.list{
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 10px 15px;
+}
+.text-style{
+  text-decoration: none;
+  color: white;
+}
+.item-size{
+  height: 100px;
+}
+#sidebar table tr td{
+  text-align: center;
+  height: 250px;
+  width: 250px;
+}
+#chart td{
+  height: 50px;
+  width: 350px;
+  text-align: center;
+}
